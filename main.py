@@ -6,7 +6,7 @@ from sklearn.neighbors import LocalOutlierFactor
 from sklearn.cluster import DBSCAN
 
 # data
-df = pd.read_csv('anomaly.csv')
+df = pd.read_csv('Anomaly.csv')
 
 
 # Define the z-score calculation function
